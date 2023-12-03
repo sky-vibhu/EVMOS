@@ -1,0 +1,12 @@
+# argument to provide specific version of nexa node
+ARG INITIAL_VERSION
+FROM tharsishq/nexa:$INITIAL_VERSION
+
+WORKDIR /go/src/github.com/nexa/nexa
+
+COPY ./init-node.sh .
+
+# JSON-RPC server
+EXPOSE 8545
+
+CMD ["sh", "./init-node.sh"]

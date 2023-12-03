@@ -1,0 +1,21 @@
+{
+  "metadata": [
+    {
+      "description": 1,
+      "denom_units": [
+        {
+          "denom": "aNEXB",
+          "exponent": 0
+        },
+        {
+          "denom": "nexa",
+          "exponent": 18
+        }
+      ],
+      "base": "aNEXB",
+      "display": "aNEXB",
+      "name": "aNEXB",
+      "symbol": "NEXA"
+    }
+  ]
+}
